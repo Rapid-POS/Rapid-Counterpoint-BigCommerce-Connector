@@ -27,7 +27,7 @@ The Rapid POS BigCommerce Connector allows you to:
 ### Items (Products)
 - Flow **from Counterpoint → BigCommerce**  
 - Includes both standard and gridded items.  
-- Can be configured to send alternate units instead of variants (for example, selling by unit or by case).  
+- Can be configured to send alternate units as variants instead of gridded items (for example, selling by unit or by case).  
 
 ### Orders & Customers
 - Flow **from BigCommerce → Counterpoint**  
