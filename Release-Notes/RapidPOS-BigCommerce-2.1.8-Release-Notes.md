@@ -27,7 +27,7 @@ _Release Date: November 12, 2025_
 
 ### Updated SQL Install Script
 
-#### Adjusted Default Pay Code to `EC_BIGCOMM`  
+#### Adjusted Default Pay Code
 - The SQL installation script for **`PS_STA_CFG_PS`** has been updated to set default pay code values from **`CASH`** to **`EC_BIGCOMM`**, ensuring better alignment with ecommerce transaction processing.  
 
 #### Added Pay Codes for Online Gift Cards and Store Credit  
