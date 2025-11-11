@@ -19,4 +19,4 @@ _Release Date: July 10, 2025_
 - When an order is imported into Counterpoint and no matching customer record can be found, a new customer record is created. Previously, the connector set the Ecommerce Customer flag to checked (**`IS_ECOMM_CUST` = Y**).  
 - Because Counterpoint disallows merging a customer flagged as an ecommerce customer with a non-ecommerce customer, this caused issues for some clients.  
   - There is no functional benefit to flagging customers as ecommerce customers.  
-- The connector has been updated to set the Ecommerce Customer flag to unchecked (**`IS_ECOMM_CUST` = N**) when creating customers. 
+- The connector has been updated to set the Ecommerce Customer flag to unchecked (**`IS_ECOMM_CUST` = N**) when creating customers in Counterpoint. 
