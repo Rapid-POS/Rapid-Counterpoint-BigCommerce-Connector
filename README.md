@@ -1,4 +1,4 @@
-# Rapid POS BigCommerce Connector - Version #.#
+# Rapid POS BigCommerce Connector - Version 2.1.8
 Updated 11/7/2025
 
 ---
