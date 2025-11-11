@@ -25,12 +25,12 @@ _Release Date: November 12, 2025_
   - **`Purchasability`** → **`BigCommerce Purchasability`**  
   - **`Visible on Storefront`** → **`BigCommerce Visible on Storefront`**  
 
-### Updated SQL Install Script – Adjusted Default Pay Code to `EC_BIGCOMM`  
+### Updated SQL Install Script
 
+#### Adjusted Default Pay Code to `EC_BIGCOMM`  
 - The SQL installation script for **`PS_STA_CFG_PS`** has been updated to set default pay code values from **`CASH`** to **`EC_BIGCOMM`**, ensuring better alignment with ecommerce transaction processing.  
 
-### Updated SQL Install Script – Added Pay Codes for Online Gift Cards and Store Credit  
-
+#### Added Pay Codes for Online Gift Cards and Store Credit  
 - BigCommerce can return specific pay codes when a customer pays on the website using a BigCommerce gift card or BigCommerce store credit.  
   - These are **not** Counterpoint gift cards or store credits, but rather payment types specific to BigCommerce. 
 - The SQL installation script has been updated to include **`ONLINE_GC`** and **`ONLINE_SC`** pay codes to ensure these codes exist in Counterpoint when used by BigCommerce.  
