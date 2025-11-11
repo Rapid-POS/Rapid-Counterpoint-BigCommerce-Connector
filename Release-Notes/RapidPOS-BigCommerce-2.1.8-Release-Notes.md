@@ -6,7 +6,7 @@ _Release Date: November 12, 2025_
 
 ## Bug Fixes and Performance Enhancements  
 
-### Refactored `IsSupportDefaultDOB` Logic  
+### Refactored Default Date of Birth Logic  
 
 - Clients who sell products that require a date of birth (DOB) on the customer record associated with a document have a configuration option for **`IsSupportDefaultDOB`** enabled. When enabled, **`AgeYearsToSubtract`** is populated with a value such as -21 years or -18 years. This allows a temporary birthdate to be associated with the ecommerce order to prevent missing DOB validation errors in Counterpoint.  
 - The logic has been refactored to temporarily apply **`AgeYearsToSubtract`** to **`AR_CUST.USER_DOB`** when saving a document that includes a firearm item.  
