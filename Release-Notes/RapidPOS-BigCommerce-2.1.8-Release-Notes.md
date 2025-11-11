@@ -32,6 +32,6 @@ _Release Date: November 12, 2025_
 ### Updated SQL Install Script – Added Pay Codes for Online Gift Cards and Store Credit  
 
 - BigCommerce can return specific pay codes when a customer pays on the website using a BigCommerce gift card or BigCommerce store credit.  
-- These are **not** Counterpoint gift cards or store credits, but rather payment types specific to BigCommerce. 
+  - These are **not** Counterpoint gift cards or store credits, but rather payment types specific to BigCommerce. 
 - The SQL installation script has been updated to include **`ONLINE_GC`** and **`ONLINE_SC`** pay codes to ensure these codes exist in Counterpoint when used by BigCommerce.  
 
