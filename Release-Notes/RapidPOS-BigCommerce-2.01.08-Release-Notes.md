@@ -1,4 +1,4 @@
-# Rapid POS BigCommerce Connector v2.1.8 Release Notes  
+# Rapid POS BigCommerce Connector v2.01.08 Release Notes 
 
 _Release Date: November 12, 2025_  
 
