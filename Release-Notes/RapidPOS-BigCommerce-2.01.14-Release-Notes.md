@@ -1,4 +1,4 @@
-# Rapid POS BigCommerce Connector v2.01.13 Release Notes
+# Rapid POS BigCommerce Connector v2.01.14 Release Notes
 
 _Release Date: March 23, 2026_
 
@@ -25,6 +25,9 @@ _Release Date: March 23, 2026_
   - The table can be refreshed at any time to display the most up-to-date information.  
   - Best viewed in table view.
 
+- For more details, see the documentation:  
+  https://github.com/Rapid-POS/Rapid-Counterpoint-BigCommerce-Connector/blob/main/README.md#section-2-bigcommerce-item-status-view
+  
 ---
 
 ## Bug Fixes and Performance Enhancements
