@@ -63,7 +63,16 @@ Each item flagged as an ecommerce item includes a sync status value indicating i
 
 ![BigCommerce Items Status View](./images/counterpoint-bigcommerce-items-status-view-table-view.png)
 
+### Finding Specific Items With a Particular Status
+
+To find items with a particular status (such as a status of 9), open Items and customize the filter for Ecommerce Item is Yes and BigCommerce Status is 9. Then use the foward icon to review each record individually or review a longer list in table view. 
+
+![Item Filter for Ecommerce Item and BigCommerce Status](./images/counterpoint-item-record-filter-ecommerce-item-bigcommerce-status.png)
+
+To change an item's status to 1 so that it will attempt to resync, change something about the item and save it. (Then change it back and save it again, if desired.) For example, change the price by one cent, save it, then change it back and save it again. If the item attempts to resync and encounters an error again, there will typically be a message in the message center. For problematic items that need review, please request support by emailing support@rapidpos.com. 
+
 ---
+
 ## Section 3: Notes
 
 Rapid POS does not provide website design or hosting services. We recommend working with a qualified ecommerce professional to build and maintain your BigCommerce storefront.
