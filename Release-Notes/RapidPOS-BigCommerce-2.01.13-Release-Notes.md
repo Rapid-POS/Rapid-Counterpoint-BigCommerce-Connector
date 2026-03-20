@@ -8,17 +8,16 @@ _Release Date: March 23, 2026_
 
 ### Added Item Status View
 
-- Introduced a new **Item Status View** to provide visibility into the synchronization status of item records.  
+- Introduced a new **Item Status View** to provide visibility into the synchronization status of item records.
+  
 - The view displays a summary table showing:
-  - Each sync status code (**`0`**, **`1`**, **`2`**, **`9`**)  
-  - The total number of item records associated with each status  
-
-- Status definitions include:
-  - **`0`** – Synced  
-  - **`1`** – Pending Sync  
-  - **`2`** – Active Sync  
-  - **`9`** – Error Syncing  
-
+  - Each sync status code
+    - **`0`** – Synced  
+    - **`1`** – Pending Sync  
+    - **`2`** – Active Sync  
+    - **`9`** – Error Syncing  
+  - The total number of item records associated with each status
+ 
 - This tool allows users to quickly identify items that may require attention, such as records in an error state.  
 
 - Notes:
