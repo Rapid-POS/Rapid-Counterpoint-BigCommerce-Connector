@@ -39,7 +39,7 @@ The Rapid POS BigCommerce Connector allows you to:
 
 ## Section 2: BigCommerce Item Status View
 
-Each BigCommerce item record includes a **sync status** that indicates its current state in the connector process. In some cases, it is helpful to review how many item records fall into a particular status category.
+Each item flagged as an Ecommerce Item includes a **sync status** that indicates its current state in the connector process. In some cases, it is helpful to review how many items fall into a particular status category.
 
 For example, you may want to identify that an item has encountered an error (status 9) so that record can be reviewed and remediated.
 
@@ -49,7 +49,7 @@ The **BigCommerce Item Status View** displays a summary table showing:
 
 ### BigCommerce Sync Status Codes
 
-Each BigCommerce item record includes a sync status value indicating its current state in the sync process:
+Each item flagged as an ecommerce item includes a sync status value indicating its current state in the sync process:
 
 - **0** – Fully synced; nothing pending  
 - **1** – Recently created or updated; will sync on the next connector run  
@@ -57,7 +57,7 @@ Each BigCommerce item record includes a sync status value indicating its current
 - **9** – Sync error; requires remediation before it can be re-synced
 
 **Notes:**
-- If no item records exist for a given status, that status will **not** appear in the table.
+- If no items exist for a given status, that status will **not** appear in the table.
 - The table can be refreshed at any time to display the most up-to-date information.
 - This is best viewed in _table view_.
 
